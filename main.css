@@ -1,0 +1,71 @@
+body {
+    background-color: #ececec;
+    background-image: url("Background.jpg");
+    background-size: cover;
+}
+
+.Main {
+    text-align: center;
+    padding: 5px 0 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: black 30px 30px 100px;
+    backdrop-filter: blur(15);
+}
+
+.title {
+    text-align: center;
+    margin: 20px auto 40px;
+    font: 50px Tahoma;
+}
+.signup{
+    margin: 35px;
+    position: absolute;
+    float: left;
+    display: block;
+}
+.button {
+    background-color: white;
+    text-decoration: none;
+    font: small Tahoma;
+    border-radius: 5px;
+    color: black;
+    transition: 500ms;
+    border: gray 1px solid;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.button:hover {
+    box-shadow: gray 0 0 20px;
+}
+
+.field {
+    margin: 5px auto;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+.field-input {
+    border-radius: 5px;
+    border: gray 1px solid;
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.field-name {
+    margin: 0 20px;
+    text-align: left;
+    font: medium Tahoma;
+}
+.Btn-buttom{
+    text-align: center;
+    margin: 10px 6.5%;
+    display: inline-block;
+}
